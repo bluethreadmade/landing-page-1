@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+main{
+    padding-top: 60px;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+.container{
+    padding-top: 10px;
+    max-width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#bio{
+    padding: 10px;
+}
+
+.bio-image{
+    max-width: 250px;
+    padding: 20px
+}
+
+form{
+    border:5px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#contact{
+    padding: 1em;
+    background-color: tan;
+}
+
+button {
+    padding: 5px;
+    font-size: 1rem;
+    margin-top: 10px;
+    text-align: center;
+    color: #fff;
+    background-color: rgb(10, 9, 9);
+  }
+
+header{
+    background-color: forestgreen;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    border-bottom: 10px solid bisque;
+}
+
+nav{
+    position: absolute;
+    right: 8px;
+    top:20px;
+}
+
+nav ul li{
+    display: inline;
+}
+
+body{
+    background-color: rgb(248, 244, 238);
+}
+
+footer{
+    background-color: forestgreen;
+    color: white;
+    height: 60px;
+    border-bottom: 10px solid gray;
+}
+
+#license{
+    position: relative;
+    text-align: center;
+    top: 20px;
+}
